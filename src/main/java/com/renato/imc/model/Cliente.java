@@ -1,0 +1,1 @@
+package com.renato.imc.model;import java.util.ArrayList;public class  Cliente {    public String nome;    public Conta adicionaConta;    public ArrayList<Conta> carteira = new ArrayList<Conta>();    public void adicionaConta(Conta conta) {        this.carteira.add(conta);    }    public ArrayList<Conta> getCarteira() {        return carteira;    }}

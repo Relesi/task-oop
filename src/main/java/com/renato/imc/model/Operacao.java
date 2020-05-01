@@ -1,0 +1,1 @@
+package com.renato.imc.model;public class Operacao {     public Conta o;     public Conta d;     public static void transferir(double v, Conta o, Conta d){          o.debitar(v);          d.creditar(v);     }}
